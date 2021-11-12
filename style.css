@@ -1,0 +1,16 @@
+.main-section-banner {
+  background-image: url("main-section-banner.jpg");
+  background-position: top;
+  background-size: cover;
+}
+@media (min-width: 360px) {
+  .root {
+    --rwd-factor: 0.8;
+  }
+}
+
+@media (min-width: 768px) {
+  .root {
+    --rwd-factor: 1;
+  }
+}
